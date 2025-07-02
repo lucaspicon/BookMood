@@ -1,0 +1,34 @@
+{
+  "avaliacoes": [
+    {
+      "livro": "A Felicidade É Inútil",
+      "nota": "5",
+      "comentario": "Adoro o Prof. Clovis",
+      "data": "2025-07-01T21:26:06.813Z"
+    },
+    {
+      "livro": "O Poder do Agora",
+      "nota": "5",
+      "comentario": "Top",
+      "data": "2025-07-01T21:30:29.352Z"
+    },
+    {
+      "livro": "A Psicologia da Gratidão",
+      "nota": "2",
+      "comentario": "Muito complexo",
+      "data": "2025-07-01T21:48:46.582Z"
+    },
+    {
+      "livro": "A Felicidade É Inútil",
+      "nota": 5,
+      "comentario": "Prof Clovis nao tem erro!!",
+      "data": "2025-07-01T22:05:32.812Z"
+    },
+    {
+      "livro": "A Psicologia da Gratidão",
+      "nota": 1,
+      "comentario": "dificl",
+      "data": "2025-07-01T22:31:34.945Z"
+    }
+  ]
+}

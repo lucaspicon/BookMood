@@ -1,0 +1,102 @@
+{
+  "feliz": [
+    {
+      "titulo": "O Poder do Agora",
+      "autor": "Eckhart Tolle",
+      "descricao": "Um convite ao autoconhecimento e à vida presente, ideal para aprofundar bons sentimentos.",
+      "imagem": "https://m.media-amazon.com/images/I/71sBtM3Yi5L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "titulo": "A Felicidade É Inútil",
+      "autor": "Clóvis de Barros Filho",
+      "descricao": "Uma reflexão filosófica, divertida e profunda sobre os sentidos da felicidade.",
+      "imagem": "https://m.media-amazon.com/images/I/61qBtfx+xRL._SL1360_.jpg"
+    },
+    {
+      "titulo": "A Psicologia da Gratidão",
+      "autor": "Robert Emmons",
+      "descricao": "Explora como cultivar gratidão pode amplificar alegria e bem-estar.",
+      "imagem": "https://m.media-amazon.com/images/I/717hgFN5J0L._SL1500_.jpg"
+    }
+  ],
+  "triste": [
+    {
+      "titulo": "A Cor Púrpura",
+      "autor": "Alice Walker",
+      "descricao": "Uma poderosa história de superação e resiliência, perfeita para momentos difíceis.",
+      "imagem": "https://m.media-amazon.com/images/I/719J3+g-GuL._SL1500_.jpg"
+    },
+    {
+      "titulo": "O Lobo da Estepe",
+      "autor": "Hermann Hesse",
+      "descricao": "Uma reflexão profunda sobre a solidão e a busca por significado na vida.",
+      "imagem": "https://m.media-amazon.com/images/I/812qwlotv+L._SL1500_.jpg"
+    },
+    {
+      "titulo": "A Metamorfose",
+      "autor": "Franz Kafka",
+      "descricao": "Uma obra clássica que explora a alienação e a transformação pessoal.",
+      "imagem": "https://m.media-amazon.com/images/I/715JOcuqSSL._SL1021_.jpg"
+    }
+  ],
+  "ansioso": [
+    {
+      "titulo": "O Poder do Agora",
+      "autor": "Eckhart Tolle",
+      "descricao": "Um guia para viver no presente e reduzir a ansiedade.",
+      "imagem": "https://m.media-amazon.com/images/I/71sh8JtiZbL._SL1500_.jpg"
+    },
+    {
+      "titulo": "A Arte da Felicidade",
+      "autor": "Dalai Lama",
+      "descricao": "Ensinamentos sobre como encontrar paz interior e reduzir a ansiedade.",
+      "imagem": "https://m.media-amazon.com/images/I/81XLIBsUbFL._SL1500_.jpg"
+    },
+    {
+      "titulo": "Mindfulness: Atenção Plena",
+      "autor": "Jon Kabat-Zinn",
+      "descricao": "Técnicas de mindfulness para acalmar a mente ansiosa.",
+      "imagem": "https://m.media-amazon.com/images/I/71bzvGSfGLL._SL1297_.jpg"
+    }
+  ],
+  "irritado": [
+    {
+      "titulo": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "descricao": "Estratégias para lidar com conflitos e irritações de forma sábia.",
+      "imagem": "https://m.media-amazon.com/images/I/51Fe45NGwkL._SL1360_.jpg"
+    },
+    {
+      "titulo": "Como Fazer Amigos e Influenciar Pessoas",
+      "autor": "Dale Carnegie",
+      "descricao": "Técnicas para melhorar relacionamentos e reduzir irritações.",
+      "imagem": "https://m.media-amazon.com/images/I/71x-i7sKSvL._SL1500_.jpg"
+    },
+    {
+      "titulo": "O Poder do Silêncio",
+      "autor": "Thich Nhat Hanh",
+      "descricao": "Ensinamentos sobre como encontrar paz interior em momentos de raiva.",
+      "imagem": "https://m.media-amazon.com/images/I/91or5MsQU1L._SL1500_.jpg"
+    }
+  ],
+  "desmotivado": [
+    {
+      "titulo": "Desperte Seu Herói Interior",
+      "autor": "Victor Hugo Manzanilla",
+      "descricao": "Um guia inspirador para encontrar motivação e propósito na vida.",
+      "imagem": "https://m.media-amazon.com/images/I/81BwG2qBIvL._SL1500_.jpg"
+    },
+    {
+      "titulo": "A Coragem de Ser Imperfeito",
+      "autor": "Brené Brown",
+      "descricao": "Ensinamentos sobre vulnerabilidade e autenticidade para superar a desmotivação.",
+      "imagem": "https://m.media-amazon.com/images/I/61rRRbfINJL._SL1006_.jpg"
+    },
+    {
+      "titulo": "Mindset: A Nova Psicologia do Sucesso",
+      "autor": "Carol S. Dweck",
+      "descricao": "Como adotar uma mentalidade de crescimento pode transformar sua vida.",
+      "imagem": "https://m.media-amazon.com/images/I/71Ils+Co9fL._SL1500_.jpg"
+    }
+  ]
+}

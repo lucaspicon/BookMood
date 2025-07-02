@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BookMood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/frontend/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/frontend/favico.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-topo">
+            <button id="toggleTema" class="botao-tema">🌙</button>
+        </div>
+        <p class="quote">✨ Um livro certo no momento certo muda tudo ✨</p>
+
+        <div class="header-logo">
+            <img src="/frontend/icone.png" alt="Logo BookMood" class="logo-img">
+            <h1 class="titulo">BookMood</h1>
+        </div>
+        <p class="subtitulo">Como você está se sentindo hoje?</p>
+
+        <!-- LISTA DE EMOCOES -->
+        <div class="emocoes">
+            <div class="emoji-card">
+                <button class="emoji-option" data-humor="feliz">😄</button>
+                <span class="emoji-label">Feliz / animado</span>
+            </div>
+
+            <div class="emoji-card">
+                <button class="emoji-option" data-humor="triste">😢</button>
+                <span class="emoji-label">Triste / desanimado</span>
+            </div>
+
+            <div class="emoji-card">
+                <button class="emoji-option" data-humor="ansioso">😰</button>
+                <span class="emoji-label">Ansioso / inquieto</span>
+            </div>
+
+            <div class="emoji-card">
+                <button class="emoji-option" data-humor="irritado">😡</button>
+                <span class="emoji-label">Irritado / impaciente</span>
+            </div>
+
+            <div class="emoji-card">
+                <button class="emoji-option" data-humor="desmotivado">😔</button>
+                <span class="emoji-label">Desmotivado / cansado</span>
+            </div>
+        </div>
+
+        <!-- SUGESTOES -->
+        <div id="sugestoesContainer" class="sugestoes">
+            <h3>Sugestões para você:</h3>
+            <div class="grid-livros" id="gridLivros"></div>
+        </div>
+
+        <section id="avaliacoesContainer">
+            <h2>Avaliações recentes 💬</h2>
+            <div id="listaAvaliacoes"></div>
+        </section>
+
+        <!-- AVALIACAO -->
+        <div class="avaliacao-container" id="avaliacaoContainer" style="display: none;">
+            <h2 class="avaliacao-titulo">Como foi sua experiência com este livro?</h2>
+
+            <div class="avaliacao-livro">
+                <img id="avaliacaoCapa" src="" alt="Capa do livro" />
+                <div class="avaliacao-info">
+                    <h3 id="avaliacaoTitulo">Título do Livro</h3>
+                    <p id="avaliacaoAutor">por Nome do Autor</p>
+                </div>
+            </div>
+
+            <label for="avaliacaoEstrelas">Sua nota:</label>
+            <div class="avaliacao-estrelas" id="avaliacaoEstrelas"></div>
+
+            <label for="observacao">Como esse livro te fez sentir?</label>
+            <textarea id="observacao" rows="4"
+                placeholder="Ex: Me senti mais calmo, consegui dormir melhor..."></textarea>
+
+            <button class="botao-avaliar" onclick="salvarAvaliacao()">Enviar avaliação</button>
+        </div>
+        <!-- MODAL DE AVALIACAO -->
+        <div id="modalAvaliacao" class="modal-overlay">
+            <div class="modal">
+                <span class="fechar-modal" onclick="fecharModal()">×</span>
+                <h2>Avaliar livro</h2>
+                <img id="modalCapa" alt="" />
+                <p class="modal-titulo" id="modalTitulo"></p>
+                <p class="modal-autor" id="modalAutor"></p>
+
+                <div id="modalEstrelas" class="modal-estrelas"></div>
+
+                <textarea id="modalComentario" placeholder="O que achou do livro?"></textarea>
+
+                <button onclick="salvarModal()">Enviar avaliação</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/frontend/main.js" type="module"></script>
+</body>
+
+</html>
