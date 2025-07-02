@@ -1,5 +1,3 @@
-![Capa do projeto BookMood](./frontend/Banner%20BookMood.png)
-
 <p align="center">
   <img src="./frontend/Banner BookMood.png" alt="Capa BookMood" width="100%">
 </p>
