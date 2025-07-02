@@ -21,6 +21,10 @@ A aplicação foi pensada inicialmente para a minha esposa, uma leitora "compuls
 
 ## Funcionalidades (versão 1.0.0)
 
+<p align="center">
+  <img src="./frontend/demoBookMood.gif" alt="Demonstração do BookMood" width="100%">
+</p>
+
 - Recomendação de livros com base no humor do usuário (ex: animado, introspectivo, etc.)
 - Rating com nota de 1 a 5 estrelas + comentário/obs
 - Interface leve com dark mode
