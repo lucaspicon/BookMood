@@ -5,6 +5,12 @@
 <h1 align="center">BookMood</h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/vers%C3%A3o-1.0.0-4c3cff?style=flat-square" />
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/feito%20com-%F0%9F%96%A4%20e%20%F0%9F%93%98-4c3cff?style=flat-square" />
+</p>
+
+<p align="center">
   <em>✨ Um livro certo no momento certo muda tudo ✨</em><br>
   Sistema de recomendação literária baseado nas suas emoções.
 </p>
