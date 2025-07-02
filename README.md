@@ -17,7 +17,7 @@
 
 O BookMood é uma aplicação web que recomenda livros com base no seu estado emocional e permite que os usuários deixem avaliações com comentários e estrelas. Totalmente acessível, responsiva e com back-end em Node.js + SQLite, o projeto promove uma experiência literária personalizada e empática. Futuramente, com a implantação de IA para recomendações, bem como avaliação das avaliações em conjunto com a IA, podemos criar uma espécie de comunidade empática voltada a literatura, ainda mais no cenário atual onde o nível de leitores brasileiro vem caindo consideravelmente.
 
-A aplicação foi pensada inicialmente para a minha esposa, uma leitora "compulsiva" que tinha dificuldades de achar o próximo livro bem como organizar os já lidos, partindo desse princípio cheguei no resultado aqui apresentado.
+A aplicação foi pensada inicialmente para a minha esposa, uma leitora "compulsiva" que tem dificuldades de achar o próximo livro bem como organizar os já lidos, partindo desse princípio cheguei no resultado aqui apresentado.
 
 ## Funcionalidades (versão 1.0.0)
 
